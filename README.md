@@ -51,7 +51,7 @@ Input variables:
 13 - pdays: number of days that passed by after the client was last contacted from a previous campaign (numeric; 999 means client was not previously contacted)
 14 - previous: number of contacts performed before this campaign and for this client (numeric)
 15 - poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')
-### social and economic context attributes
+### Social and economic context attributes
 16 - emp.var.rate: employment variation rate - quarterly indicator (numeric)
 17 - cons.price.idx: consumer price index - monthly indicator (numeric)
 18 - cons.conf.idx: consumer confidence index - monthly indicator (numeric)
