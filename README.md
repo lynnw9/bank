@@ -73,17 +73,17 @@ The categorical features need to be encoded. I encoded these features into natur
 
 ## Model Comparisons
 	Model	Train Time	Train Accuracy	Test Accuracy
-0	Logistic Regression	0.517498	0.887054	0.888220
-1	Decision Tree	0.101504	0.917743	0.865980
-2	SVM	156.403996	0.887281	0.888220
-3	KNN5	0.132501	0.890615	0.878023
-4	Logic Regression without marital	0.194499	0.887119	0.888026
-5	Decision Tree without marital	0.088497	0.908323	0.872099
-6	SVM without marital	150.168004	0.887152	0.888123
-7	KNN5 without marital	0.116499	0.888026	0.875886
-8	Grid Search Decision Tree	2.286001	0.887443	0.887734
-9	Grid Search Logistic Regression	3.565998	0.887119	0.888026
-10	Grid Search KNN	485.886503	0.887346	0.888220
-11	Grid Search SVC	2112.347995	0.887572	0.888317
+### 0	Logistic Regression	0.517498	0.887054	0.888220
+### 1	Decision Tree	0.101504	0.917743	0.865980
+### 2	SVM	156.403996	0.887281	0.888220
+### 3	KNN5	0.132501	0.890615	0.878023
+### 4	Logic Regression without marital	0.194499	0.887119	0.888026
+### 5	Decision Tree without marital	0.088497	0.908323	0.872099
+### 6	SVM without marital	150.168004	0.887152	0.888123
+### 7	KNN5 without marital	0.116499	0.888026	0.875886
+### 8	Grid Search Decision Tree	2.286001	0.887443	0.887734
+### 9	Grid Search Logistic Regression	3.565998	0.887119	0.888026
+### 10	Grid Search KNN	485.886503	0.887346	0.888220
+### 11	Grid Search SVC	2112.347995	0.887572	0.888317
 
 The models' accuracies exhibit little improvement. It is conceivable that there is no apparent link between the input features and the output. Incrase the threshold may increase the likelihood of identifying positive candidate, but most of the positive candidates will still be missed by the models. 
